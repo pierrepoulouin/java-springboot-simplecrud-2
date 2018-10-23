@@ -1,0 +1,10 @@
+INSERT INTO film(name, rate, year, ref_acteur)
+VALUES
+('la planete des singes', 4, '1989', 2),
+('Inception', 4, '2012', 3),
+('Die hard', 4, '1997', 2),
+('Gourou', 4, '1960',1),
+('Tekken', 4,  '2001', 6),
+('le monde de Dom', 4, '1999',6);
+
+SELECT * FROM film;

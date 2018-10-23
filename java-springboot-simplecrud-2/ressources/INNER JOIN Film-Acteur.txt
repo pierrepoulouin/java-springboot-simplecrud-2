@@ -1,0 +1,7 @@
+select * from film
+ 
+inner join acteur on acteur.id_acteur = film.ref_acteur
+
+where id_film = 2
+
+order by id_acteur;
